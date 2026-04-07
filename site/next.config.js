@@ -7,7 +7,7 @@ const nextConfig = {
     name: 'Tanner\'s Registry',
     description: 'Tanner\'s personal registry of Kasm workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://tannerfilip.org/',
+    listUrl: 'https://tannerfilip.org/kasm-registry/',
     contactUrl: 'https://github.com/tannerfilip/kasm-registry',
   },
   reactStrictMode: true,
