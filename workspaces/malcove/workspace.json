@@ -1,0 +1,26 @@
+{
+  "description": "Malcove is a lightweight malware analysis environment designed for use within the Kasm workspace platform.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "malcove.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "categories": [
+    "Security",
+    "Malware Analysis"
+  ],
+  "friendly_name": "Malcove",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "tanner/malcove:develop",
+      "uncompressed_size_mb": 2500,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
